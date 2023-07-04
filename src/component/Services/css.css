@@ -1,0 +1,98 @@
+.Services{
+    width: 1320px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 60px;
+    text-align: left;
+}
+.services_content>h1{
+    font-family: main_bold;
+    color: #199ece;  
+}
+.box_item{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.box_item>div>img{
+    width: 160px;
+    border-radius: 3px;
+}
+.box_item>span{
+    margin-left: 30px;
+    font-size: 21px;
+    font-family: main_bold;
+}
+.box_item:last-child{
+    margin-bottom: 150px
+}
+.services_content>ul{
+    list-style: square;
+    margin: 0px;
+    padding-left: 20px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.hr{
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 2px;
+    border-radius: 10px;
+    background-color: rgba(218, 216, 216, 0.699);
+}
+
+@media (max-width: 1028px) {
+    .Services{
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 40px;
+        text-align: left;
+    }
+    .services_content>h1{
+        font-family: main_bold;
+        color: #199ece;  
+        font-size: 18px;
+    }
+    .box_item{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-left: 5px;
+    }
+    .box_item>div>img{
+        width: 100px;
+        border-radius: 3px;
+    }
+    .box_item>span{
+        margin-left: 10px;
+        font-size: 12px;
+        font-family: main_bold;
+    }
+    .box_item:last-child{
+        margin-bottom: 60px;
+    }
+    .services_content>ul{
+        list-style: square;
+        margin: 0px;
+        padding-left: 21px;
+        margin-top: 10px;
+        font-size: 11px;
+    }
+    .services_content>ul>li:last-child{
+        margin-bottom: 20px!important;
+    }
+    .hr{
+        display: block;
+        margin-top: 10px!important;
+        margin-bottom: 30px!important;
+        height: 2px;
+        border-radius: 10px;
+        background-color: rgba(218, 216, 216, 0.699);
+    }
+}

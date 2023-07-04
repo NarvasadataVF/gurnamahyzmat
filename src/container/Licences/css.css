@@ -1,0 +1,32 @@
+@font-face {
+    font-family: main;
+    src: url(./../../fonts/gh.ttf);
+}
+@font-face {
+    font-family: main_semibold;
+    src: url(./../../fonts/gh_semibold.ttf);
+}
+@font-face {
+    font-family: main_bold;
+    src: url(./../../fonts/gh_bold.ttf);
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: main;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.LicencesContainer::before{
+    background-image: url(./../../img/page_bg.jpg);
+    content: " ";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -5;
+}

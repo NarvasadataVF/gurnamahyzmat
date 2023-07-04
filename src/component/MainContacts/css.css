@@ -1,0 +1,76 @@
+.MainContacts{
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+.MainContacts>h1{
+    font-size: 34px;
+    margin-bottom: 10px;
+    font-family: main_bold;
+}
+.MainContacts>ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.MainContacts>ul>li{
+    line-height: 28px;
+    font-size: 19px;
+    font-family: main;
+    font-weight: 500;
+}
+.MainContacts>ul>li>a{
+    color: black;
+    text-decoration: none;
+}
+.MainContacts>ul>li>a:hover{
+    text-decoration: underline;
+}
+.copyright_main{
+    margin-top: 40px;
+    color: rgba(0, 0, 0, 0.384);
+    text-transform: unset;
+    font-family: main_bold;
+    font-size: 16px;
+}
+@media (max-width: 1080px) {
+            .MainContacts{
+                text-align: left;
+                margin-left: 5px;
+                margin-right: 5px;
+                margin-bottom: 30px;
+                margin-top: 50px;
+            }
+            .MainContacts>h1{
+                font-size: 18px;
+                margin-bottom: 5px;
+                font-family: main_bold;
+            }
+            .MainContacts>ul{
+                list-style: none;
+                padding: 0px;
+                margin: 0px;
+            }
+            .MainContacts>ul>li{
+                line-height: 22px;
+                font-size: 12px;
+                font-family: main;
+                font-weight: 500;
+            }
+            .MainContacts>ul>li>a{
+                color: black;
+                text-decoration: none;
+            }
+            .MainContacts>ul>li>a:hover{
+                text-decoration: underline;
+            }
+            .copyright_main{
+                margin-top: 40px;
+                font-size: 12px;
+                color: rgba(0, 0, 0, 0.384);
+                text-transform: unset;
+                font-family: main_bold;
+            }
+}

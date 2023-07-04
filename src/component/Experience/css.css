@@ -1,0 +1,218 @@
+.Experience{
+    width: 1320px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 60px;
+    text-align: left;
+}
+.exp_content>h1{
+    font-family: main_bold;
+    color: #199ece; 
+}
+.hr{
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 2px;
+    border-radius: 10px;
+    background-color: rgba(218, 216, 216, 0.699);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+}
+.grid-item{
+    background-color: #72c1dd27;
+    border-radius: 8px;
+    padding: 30px;
+    padding-left: 40px;
+}
+.grid-item>h1{
+    color: rgba(49, 48, 48, 0.199);
+    margin-top: 0px;
+    font-family: main_semibold;
+    margin-bottom: 5px;
+}
+.grid-item>span{
+    font-family: main_bold;
+    font-size: 21px;
+}
+.grid-item>ul{
+    list-style: square;
+    padding-left: 21px;
+    font-size: 18px;
+}
+.grid-item>p{
+    font-size: 19px;
+    padding-right: 280px;
+}
+
+.going_projects{
+    background-color: #72c1dd27;
+    border-radius: 8px;
+    padding: 30px;
+    padding-left: 40px;
+}
+.xbot{
+    margin-bottom: 100px;
+}
+.vbot{
+    margin-bottom: 30px;
+}
+.going_projects>h1{
+    color: rgba(49, 48, 48, 0.199);
+    margin-top: 0px;
+    font-family: main_semibold;
+    margin-bottom: 5px;
+}
+.going_projects>span{
+    font-family: main_bold;
+    font-size: 21px;
+}
+.going_projects>ul{
+    list-style: square;
+    padding-left: 21px;
+    font-size: 18px;
+}
+
+
+#project{
+    margin-top: 80px;
+}
+#jeyhun{
+    grid-row: 1/3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    height: 220px;
+}
+#etrek{
+    grid-row: 3/4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-top: -160px;
+    /* margin-bottom: -100px; */
+}
+#longGrid{
+    grid-column: 1/3;
+}
+
+
+@media (max-width: 1028px) {
+            .Experience{
+                width: 100%;
+                padding-left: 0px;
+                padding-right: 0px;
+                margin-top: 60px;
+                text-align: left;
+            }
+            .exp_content>h1{
+                font-family: main_bold;
+                color: #199ece; 
+                font-size: 18px;       
+                padding-left: 5px;        
+            }
+            .hr{
+                display: block;
+                margin-top: 20px!important;
+                margin-bottom: 30px!important;
+                height: 2px;
+                border-radius: 10px;
+                background-color: rgba(218, 216, 216, 0.699);
+            }
+            
+            .grid-container {
+                display: grid;
+                grid-template-columns: auto auto;
+                grid-column-gap: 10px;
+                grid-row-gap: 10px;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+            .grid-item{
+                background-color: #72c1dd27;
+                border-radius: 8px;
+                padding-right: 5px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                padding-left: 8px;
+            }
+            .grid-item>h1{
+                color: rgba(49, 48, 48, 0.199);
+                margin-top: 0px;
+                font-family: main_semibold;
+                margin-bottom: 5px;
+                font-size: 18px;
+            }
+            .grid-item>span{
+                font-family: main_semibold;
+                font-size: 14px;
+            }
+            .grid-item>ul{
+                list-style: square;
+                padding-left: 21px;
+                font-size: 11px;
+            }
+            .grid-item>p{
+                font-size: 12px;
+                padding-right: 5px;
+            }
+            
+            .going_projects{
+                background-color: #72c1dd27;
+                border-radius: 8px;
+                padding: 20px;
+                padding-left: 10px;
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+            .going_projects>h1{
+                color: rgba(49, 48, 48, 0.199);
+                margin-top: 0px;
+                font-size: 18px;
+                font-family: main_semibold;
+                margin-bottom: 5px;
+            }
+            .going_projects>span{
+                font-family: main_bold;
+                font-size: 14px;
+            }
+            .going_projects>ul{
+                list-style: square;
+                padding-left: 21px;
+                font-size: 12px;
+            }
+            
+            .xbot{
+                margin-bottom: 100px;
+            }
+            .vbot{
+                margin-bottom: 10px;
+            }
+            
+            #project{
+                margin-top: 40px;
+                margin-bottom: 0px;
+            }
+            #jeyhun{
+                grid-row: 1/3;
+                grid-column-start: 2;
+                grid-column-end: 3;
+                height: 180px;
+            }
+            #etrek{
+                grid-row: 3/4;
+                grid-column-start: 2;
+                grid-column-end: 3;
+                margin-top: -75px;
+                /* margin-bottom: -100px; */
+            }
+            #longGrid{
+                grid-column: 1/3;
+            }
+            #minh{
+                min-height: 115px;
+            }
+}
